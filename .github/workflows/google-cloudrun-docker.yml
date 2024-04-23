@@ -17,6 +17,7 @@ jobs:
   build-tag-push-deploy:
     name: Build, tag, push Docker image and deploy to Cloud Run
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
       # Continuous Integration
