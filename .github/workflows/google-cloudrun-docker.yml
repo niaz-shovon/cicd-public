@@ -58,7 +58,7 @@ jobs:
             org.opencontainers.image.revision=${{ github.sha }}
             org.opencontainers.image.licenses=${{ github.event.repository.license.name }}         
 
-      # Continuous Deployment
+      # Continuous Deployments
       - name: Google Auth
         id: auth
         uses: google-github-actions/auth@v2
